@@ -6,6 +6,7 @@
         public static int[] level, energy;
         public static double[] health, ap, ad, ap_ar, ad_ar;
         public static int curr_id;
+        public static bool[] stunned;
 
         public ai_monst()
         {
@@ -18,6 +19,7 @@
             ap_ar = new double[4];
             energy = new int[4];
             curr_id = 0;
+            stunned = new bool[4];
         }
 
         public void set(int id, string s, int l)

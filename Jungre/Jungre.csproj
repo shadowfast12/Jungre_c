@@ -45,6 +45,8 @@
         <Compile Include="funct\attack.cs" />
         <Compile Include="funct\damage.cs" />
         <Compile Include="funct\input.cs" />
+        <Compile Include="funct\random.cs" />
+        <Compile Include="funct\savload.cs" />
         <Compile Include="Main\Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
